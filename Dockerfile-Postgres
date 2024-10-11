@@ -1,0 +1,6 @@
+FROM docker.io/postgres:latest
+
+COPY init-cafe.sql /docker-entrypoint-initdb.d/init-cafe.sql
+
+EXPOSE 5432
+

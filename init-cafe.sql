@@ -1,11 +1,9 @@
-CREATE TABLE IF NOT EXISTS public.cafe
+CREATE TABLE public.cafe
 (
-    id integer NOT NULL DEFAULT nextval('"cafe_Id_seq"'::regclass),
-    type character varying COLLATE pg_catalog."default" NOT NULL,
-    CONSTRAINT "Id" PRIMARY KEY (id)
-)
-
-TABLESPACE pg_default;
+	    id serial NOT NULL,
+	    type character varying NOT NULL,
+	    PRIMARY KEY (id)
+);
 
 ALTER TABLE IF EXISTS public.cafe
     OWNER to postgres;

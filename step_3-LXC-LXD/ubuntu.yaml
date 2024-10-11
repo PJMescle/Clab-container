@@ -261,6 +261,15 @@ packages:
     action: remove
     types:
     - vm
+ 
+  - packages:
+    - openjdk
+    action: install
+    releases:
+      - 21
+    types:
+    - vm    
+
 
   repositories:
   - name: sources.list
