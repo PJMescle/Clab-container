@@ -1,18 +1,11 @@
-package com.carbonit.clab.container.controller;
+package com.carbonit.clab.container;
 
 
 import jakarta.persistence.*;
 
 @Entity
-@Table
+@Table(name="cafe")
 public class CafeEntity {
-
-    public CafeEntity(String type) {
-        this.type = type;
-    }
-
-    public CafeEntity() {
-    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,6 +14,12 @@ public class CafeEntity {
     @Column
     public String type;
 
+    public CafeEntity(String type) {
+        this.type = type;
+    }
+
+    public CafeEntity() {
+    }
 
 
 

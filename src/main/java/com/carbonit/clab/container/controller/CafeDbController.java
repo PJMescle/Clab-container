@@ -1,6 +1,7 @@
 package com.carbonit.clab.container.controller;
 
 
+import com.carbonit.clab.container.CafeEntity;
 import com.carbonit.clab.container.CafeRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
