@@ -23,4 +23,5 @@ TODO :
 
 ## TODO Recréer les images précédentes avec podman
 
-Tenter de recréer les images créées précédemment avec podman.
+Essayez de recréer les images créées précédemment avec podman.
+

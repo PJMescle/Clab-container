@@ -18,4 +18,4 @@ Un fork nommé Incus existe et fait partie de linuxcontainers
 Lancer un container LXD avec la commande : `lxc launch ubuntu:24.04 <nom-du-conteneur>` et controllez son existence avec la commande 
 `lxc list`
 
-Exécuter Bash sur le container créé et regarder la liste des process disponibles
+Exécuter Bash sur le container créé et regarder la liste des process disponibles.
