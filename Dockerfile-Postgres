@@ -1,6 +1,6 @@
 FROM docker.io/postgres:latest
 
-COPY init-cafe.sql /docker-entrypoint-initdb.d/init-cafe.sql
+COPY init-coffee.sql /docker-entrypoint-initdb.d/init-coffee.sql
 
 EXPOSE 5432
 

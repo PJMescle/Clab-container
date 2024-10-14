@@ -6,13 +6,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CafeController {
+public class ActuatorController {
 
 
-
-    @GetMapping("/cafe")
-    public ResponseEntity<String> getCafe(){
-        return new ResponseEntity<>("Here's a coffe", HttpStatus.OK);
+    @GetMapping("/")
+    public ResponseEntity<String> getCoffee() {
+        return new ResponseEntity<>("Application is running, here is a coffee", HttpStatus.OK);
     }
 
 }
